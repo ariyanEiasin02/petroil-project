@@ -7,7 +7,7 @@ const Big = () => {
     <>
         {/* <!-- backtotop part start --> */}
         <div>
-            <ScrollToTop className='w-12 h-12 rounded-full bg-pramary fixed bottom-5 right-5' smooth component={<IoIosArrowUp className="text-white text-xl mx-auto"/>} />
+            <ScrollToTop className='w-12 h-12 rounded-full bg-pramary fixed bottom-5 right-5' smooth component={<IoIosArrowUp className="text-red text-xl mx-auto"/>} />
         </div>
     </>
   )
